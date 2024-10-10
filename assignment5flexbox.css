@@ -23,6 +23,7 @@
     border-radius: 5px 20px 5px;
     padding: 10px;
     transition: border-radius 2s;
+    cursor: pointer;
 
     &:hover {
         border-radius: 20px 5px;
