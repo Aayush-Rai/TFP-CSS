@@ -47,7 +47,7 @@ input {
     transition: 2s;
 
 
-    child:hover {
+    &:hover {
         border: 9px dotted orange;
 
     }
