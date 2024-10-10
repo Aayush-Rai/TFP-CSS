@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.parent {
+    background-color: #00008B;
+    height: 60px;
+    display: flex;
+
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.child {
+    /* margin: 10px; */
+
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px 20px 5px;
+    padding: 10px;
+    transition: border-radius 2s;
+
+    &:hover {
+        border-radius: 20px 5px;
+        border-color: blue;
+    }
+}
+
+
+input {
+    border-radius: 20px;
+    max-width: 400px;
+    flex-grow: 1;
+}
+
+.child.five {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: orange;
+    background-color: rgb(22, 135, 135);
+    transition: 2s;
+
+
+    child:hover {
+        border: 9px dotted orange;
+
+    }
+}
