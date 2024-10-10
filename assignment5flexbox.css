@@ -32,9 +32,14 @@
 
 
 input {
-    border-radius: 20px;
-    max-width: 400px;
-    flex-grow: 1;
+    
+        border-radius: 12px;
+        padding: 8px 16px;
+        outline: none;
+        border: none;
+        flex-grow: 1;
+        max-width: 400px;
+    
 }
 
 .child.five {
