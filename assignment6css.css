@@ -7,29 +7,122 @@
 
 
 body{
+    height: 100vh ;
+    width: 100vw;
     background-color: #F7F8F9;
-    margin-bottom: auto;
+    font-family: "Poppins", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
 }
+
 
 form{
     
     margin: auto;
-    padding: 80px 40px;
-    border: 2px solid #0f0f0f;
+    padding: 40px 80px;
+    background: #FFFFFF;
+    border: 2px solid #f0eaeadc;
     border-radius: 40px;
     width: 400px;
+    box-shadow: 0px 12px 36px 0px #0000001A;
+
+    
     
     
 
 }
 
-form label
 
 form label{
-    m
+    
+    padding: 8px;
+    border-radius: 1px;
     display: block;
+    width: 100%;
+}
+
+h2{
+    margin-bottom: 16px;
+    text-align: center;
+    
 }
 
 form input{
+
     display: block;
+    background: #F7F8F9;
+    border: 1px solid #E7EAEE;
+    border-radius: 6px;
+    outline: none;
+    padding: 8px;   
+    border-radius: 6    px;
+    width: 100%;
+    margin-bottom: 8px;
+
+}
+
+
+
+.normal{
+    margin-top: 16px;  
+   background-color:  #6EE7B7;
+   border: #6EE7B7;
+   border-radius: 35px;
+   padding: 16px 8px;
+   width: 100%;
+   color: #FFFFFF;
+   cursor: pointer;
+   font-weight: 600;
+   
+
+}
+
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px; 
+
+    background-color: #191D23;
+    color: #FFFFFF;
+    border-radius: 35px;
+    padding: 16px 8px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+img{
+    height: 24px;
+    width: 24px;
+}
+
+p{
+    margin-top: 16px; 
+    text-align: center;
+    font-weight: 400;
+}
+
+span{
+
+    color: #6EE7B7;
+    font-weight: 600;    
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+
+}
+
+
+.eye-img{
+    background-image: url(Hide.png);
+    background-repeat: no-repeat;
+    background-size:24px;
+    background-position: right;
 }
