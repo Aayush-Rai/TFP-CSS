@@ -10,7 +10,7 @@
     background-color: #00008B;
     height: 60px;
     display: flex;
-    
+
 
     align-items: center;
     gap: 16px;
@@ -35,14 +35,14 @@
 
 
 input {
-    
-        border-radius: 12px;
-        padding: 8px 16px;
-        outline: none;
-        border: none;
-        flex-grow: 1;
-        max-width: 400px;
-    
+
+    border-radius: 12px;
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    flex-grow: 1;
+    max-width: 400px;
+
 }
 
 .child.five {
@@ -62,68 +62,68 @@ input {
 }
 
 
-#container{
+#container {
     width: 100%;
     display: grid;
-    grid-template-areas: 
-    "menu header"
-    "menu   main"
-    "menu   main"
+    grid-template-areas:
+        "menu header"
+        "menu   main"
+        "menu   main"
 
-    
-   
+
+
 }
 
-.box-1{
+.box-1 {
     grid-area: header;
     width: 100%;
 }
 
-.box-2{
+.box-2 {
     grid-area: menu;
-    font-size: 20px;
+
     text-align: center;
     margin-left: 10px;
     padding: 48px 16px 0px;
     width: 100%;
-    border: 1px solid grey ;
-    
-    
+    border: 1px solid grey;
+
+
     row-gap: 50px;
-    background-color: #a4a4ea   ;
-    
+    background-color: #a4a4ea;
+
 }
 
 
-.link{
+.link {
     display: block;
 
     padding: 16px;
     color: black;
     border-radius: 8px;
-    
 
-    &:hover{
+
+    &:hover {
         background-color: #4f4fe5;
-    
+
     }
 
     text-decoration: none;
 }
 
 
-.box-3{
-    
+.box-3 {
+
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 24px;
     column-gap: 24px;
     padding: 32px;
-   
+
 }
 
-.childs{
-   height: 280px;
+.childs {
+    height: 280px;
     border-radius: 16px;
     background-color: rgb(176, 172, 172);
 
