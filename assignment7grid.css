@@ -81,7 +81,7 @@ input {
 
 .box-2{
     grid-area: menu;
-
+    font-size: 20px;
     text-align: center;
     margin-left: 10px;
     padding: 48px 16px 0px;
@@ -98,7 +98,7 @@ input {
 .link{
     display: block;
 
-    padding: 8px;
+    padding: 16px;
     color: black;
     border-radius: 8px;
     
