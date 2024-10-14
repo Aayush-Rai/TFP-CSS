@@ -52,7 +52,7 @@ input {
     border-width: 3px;
     border-color: orange;
     background-color: rgb(22, 135, 135);
-    transition: 2s;
+    transition: 600ms;
 
 
     &:hover {
@@ -97,7 +97,7 @@ input {
 
 .link {
     display: block;
-
+    font-size: 20px;
     padding: 16px;
     color: black;
     border-radius: 8px;
