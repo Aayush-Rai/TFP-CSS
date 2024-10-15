@@ -147,8 +147,8 @@ input {
     .box-3 {
 
         grid-template-columns: 1fr;
-    
-    
+
+
     }
 
     #container {
@@ -165,7 +165,7 @@ input {
 
     }
 
-    .childs{
+    .childs {
         width: 100%;
     }
 
@@ -179,16 +179,16 @@ input {
         width: 100%;
         overflow: auto;
 
-     
+
 
     }
 
-    label:hover{
+    label:hover {
         cursor: pointer;
     }
 
-    .active{
-        
+    .active {
+
         font-weight: bold;
         border-bottom: 2px solid black;
     }
@@ -198,12 +198,10 @@ input {
     }
 }
 
-@media (width>768px) {
+@media (width>769px) {
     .nav-grid {
         display: none;
 
-      
+
     }
-
-
 }
