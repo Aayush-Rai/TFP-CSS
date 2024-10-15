@@ -172,7 +172,7 @@ input {
 
     .nav-grid {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         padding: 24px;
         gap: 24px;
         grid: nav;
