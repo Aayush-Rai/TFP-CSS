@@ -169,6 +169,10 @@ input {
         width: 100%;
     }
 
+    .nav-grid::-webkit-scrollbar {
+        display: none;
+    }
+
 
     .nav-grid {
         display: flex;
