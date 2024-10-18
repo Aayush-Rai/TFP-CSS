@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.c2 {
+    position: absolute;
+    left: 75px;
+}
+
+.c3{
+    position: relative;
+    left: 80px;
+}
+
+
+.c6{
+    position: relative;
+    left: 25px;
+    bottom: 25px;
+}
+
+
+
+.c8{
+
+    position: relative;
+    left: 25px;
+    bottom: 25px;
+    
+    
+
+}
+
