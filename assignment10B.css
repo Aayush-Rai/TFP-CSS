@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.c1{
+    position: absolute;
+}
+
+
+.c4{
+    position: absolute;
+    z-index: -1;
+}
