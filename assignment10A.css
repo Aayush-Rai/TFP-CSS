@@ -24,13 +24,17 @@
     bottom: 25px;
 }
 
-
+.c7{
+    position: relative;
+    z-index: 1;
+}
 
 .c8{
 
     position: relative;
     left: 25px;
     bottom: 25px;
+    
     
     
 
