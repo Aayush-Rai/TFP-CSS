@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.emoji-face {
+    width: 100px;
+    height: 100px;
+    background: none;
+    background-color: rgba(255, 255, 0, 0.315);
+    border: 2px solid goldenrod;
+    border-radius: 50px;
+}
+
+.mouth-round {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    border: 1px solid #8E5F10;
+}
+
+
+.left {
+    width: 10px;
+    height: 14px;
+    border: 1px solid #8E5F10;
+    border-radius: 10px;
+
+}
+
+.right {
+    width: 10px;
+    height: 14px;
+    border: 1px solid #8E5F10;
+    border-radius: 10px;
+}
+
+.mouth-flat {
+    width: 32px;
+    height: 4px;
+    border: 1px solid #8E5F10;
+    border-radius: 2px;
+}
+
+.mouth-amazed {
+    width: 32px;
+    height: 16px;
+    border-radius: 16px;
+    border: 1px solid #8E5F10;
+}
+
+.mouth-worried {
+    width: 32px;
+    height: 16px;
+    /* border-bottom-radius: 8px; */
+    border-bottom: 1px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
