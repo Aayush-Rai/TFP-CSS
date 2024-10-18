@@ -56,8 +56,5 @@
     height: 16px;
     /* border-bottom-radius: 8px; */
     border-bottom: 1px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
+    border-radius: 8px 8px 18px 18px;
 }
