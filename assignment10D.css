@@ -9,7 +9,7 @@
     width: 100px;
     height: 100px;
     background: none;
-    background-color: rgba(255, 255, 0, 0.315);
+    background-color: linear-gradient(#FCF7C3, #EFE323, #F0EA0D);
     border: 2px solid goldenrod;
     border-radius: 50px;
 }
