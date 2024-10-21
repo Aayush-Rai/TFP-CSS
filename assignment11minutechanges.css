@@ -133,21 +133,22 @@ input {
 
 
 .box-3 {
-    position: relative;
 
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, 260px);
     gap: 24px 8px;
-    justify-content: space-evenly ;
     padding: 24px 8px 24px 24px;
+    justify-content: center;
+    /* justify-items: center; */
 
 
 }
 
 .childs {
+    
     left: 40px;
-    height: 170px;
+    height: fit-content;
     width: 260px;
     background-color: #D3D3D3;
     padding: 4px;
