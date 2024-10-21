@@ -150,19 +150,61 @@ input {
     left: 40px;
     height: fit-content;
     width: 260px;
+    height: 212px;
     background-color: #D3D3D3;
     padding: 4px;
     
 
 
 }
-
+.hover-box3{
+    display: none;
+}
+.icon{
+    display: flex;
+    flex-direction: row-reverse ;
+    padding-top: 3px;
+}
 .imgcon {
-
-    height: 100px;
+    position: relative;
+    height: 142px;
     border-radius: 10px;
     background-color: #999999;
 
+    &:hover{
+        .hover-box1{
+        position: absolute;
+        top: 8px;
+        left: 85%;
+        width: 28px;
+        height: 28px;
+        border-radius: 3px;
+        background-color: brown;
+        }
+
+        .hover-box2{
+
+            position: absolute;
+            top: 42px;
+            left: 85%;
+            width: 28px;
+            height: 28px;
+            border-radius: 3px;
+            background-color: brown;
+            }
+
+        .hover-box3{
+            display: block;
+            position: absolute;
+            top: 85%;
+            left: 81%;
+            width: 38px;
+            height: 16px;
+            border-radius: 3px;
+            background-color: rgba(255, 255, 0, 0.374);
+        }    
+    }
+   
 }
 
 .imgcon2 {
