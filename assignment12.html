@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 11</title>
+    <title>Assignment 12</title>
     <link rel="stylesheet" type="text/css" href="./assignment12.css">
 </head>
 
 <body>
+
+
+
     <nav>
         <div class="parent">
             <div class="first-items">
@@ -21,8 +24,23 @@
                 <button class="search-button"><img src="search.svg" alt="">
             </div>
             </button>
-            <div class="child five"></div>
-        </div>
+            <!-- Hamburger Menu with Checkbox Toggle -->
+<div class="menu-container">
+    <input type="checkbox" id="menuToggle" class="menu-checkbox">
+    <label for="menuToggle" class="child five">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+    </label>
+
+    <!-- Dropdown Menu -->
+    <div class="dropdown-menu">
+        <a href="#" class="dropdown-item">Profile</a>
+        <a href="#" class="dropdown-item">Settings</a>
+        <a href="#" class="dropdown-item">Log Out</a>
+    </div>
+</div>
+
     </nav>
 
     <div id="container">
@@ -65,119 +83,553 @@
         </div>
         <div class="box box-3">
             <div class="childs child-1">
+                
+                <a href="#videoModal" >
                 <div class="imgcon">
-                    <img class="imgcon-img1" src="https://i.ytimg.com/vi/Hu-EPelY7Yo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOap4tJz3FcJ3-jqEN0QXJ9h33BQ" alt="">
-                    <img class="imgcon-img2" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHJrMTYwM2wwbmY5eWFwdWlqOWExMDVibWY3cjNuNGNyODkwZDVqcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tMiHhTLvQcavm/giphy.gif" alt="">
+            
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/Hu-EPelY7Yo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOap4tJz3FcJ3-jqEN0QXJ9h33BQ"
+                        alt="">
+                    
+
+                    
+                    <img class="imgcon-img2"
+                        src="giphy.jpeg"
+                        alt="">
+                   
                     <div class="hover-box1"><img src="later.svg" alt=""></div>
                     <div class="hover-box2"><img src="play.svg" alt=""></div>
-                    <div class="hover-box3">10:00</div>
+                    <div class="hover-box3">23:00</div>
                 </div>
+            </a>
+
+
+                <div id="videoModal" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/oU8m3Oqd1OU" title="Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Course | L-73" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
                 <div class="imgcon2">
-                    <div class="icon"><p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p> <img src="dots.svg" alt=""></div>
+                    <div class="icon">
+                        <p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p>
+                        <img src="dots.svg" alt="">
+                    </div>
                 </div>
-                <div class="imgcon3"><span class="text1">100 views</span> <span class="span-dot"></span><span class="text2">21 hours ago</span></div>
+                <div class="imgcon3"><span class="text1">18K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
             </div>
             <div class="childs child-2">
+
+                <a href="#videoModal2" >
                 <div class="imgcon">
-                    <img class="imgcon-img1" src="https://i.ytimg.com/vi/X49See4Rdw8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1vJGVe2Ep847aRl6E0RDp95MgbQ" alt="">
-                    <img class="imgcon-img2" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjZhbGdkeHc1eWsyOW1qbG52ZjE3dzB0eTBxaWhlaG84cm8xZzBjaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5WAdRevloGjuw/giphy.gif" alt="">  
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/X49See4Rdw8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1vJGVe2Ep847aRl6E0RDp95MgbQ"
+                        alt="">
+                    <img class="imgcon-img2"
+                        src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjZhbGdkeHc1eWsyOW1qbG52ZjE3dzB0eTBxaWhlaG84cm8xZzBjaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5WAdRevloGjuw/giphy.gif"
+                        alt="">
                     <div class="hover-box1"><img src="later.svg" alt=""></div>
                     <div class="hover-box2"><img src="play.svg" alt=""></div>
-                    <div class="hover-box3">10:00</div>
+                    <div class="hover-box3">15:00</div>
                 </div>
+            </a>
+
+
+                <div id="videoModal2" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="660" height="371" src="https://www.youtube.com/embed/nd1_Tw583G0" title="Concurrency in Practice, Code... |  Master Concurrency In-depth | Lec-5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+
                 <div class="imgcon2">
-                    <div class="icon"><p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p> <img src="dots.svg" alt=""></div>
+                    <div class="icon">
+                        <p>Can you solve this Multithreading Challenge? | Master Concurrency In-depth | Lec-20 </p> <img
+                            src="dots.svg" alt="">
+                    </div>
                 </div>
-                <div class="imgcon3"><span class="text1">100 views</span> <span class="span-dot"></span><span class="text2">21 hours ago</span></div>
+                <div class="imgcon3"><span class="text1">30K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
             </div>
             <div class="childs child-3">
+                <a href="#videoModal3" >
                 <div class="imgcon">
-                    <img class="imgcon-img1" src="https://i.ytimg.com/vi/qCagfQ0GeYU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6GFhSirjonZ8zsPcS66jrnlMldw" alt="">
-                    <img class="imgcon-img2" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXF1NmJlZDFqNzdlNXU1dmN4bmRqZ2l6bWE0NXRybnlwYWh2a2VnbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPwoeGErMmaI43S/giphy.gif" alt="">  
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/qCagfQ0GeYU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6GFhSirjonZ8zsPcS66jrnlMldw"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
                     <div class="hover-box1"><img src="later.svg" alt=""></div>
                     <div class="hover-box2"><img src="play.svg" alt=""></div>
-                    <div class="hover-box3">10:00</div>
+                    <div class="hover-box3">18:00</div>
                 </div>
+            </a>
+
+                <div id="videoModal3" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/qCagfQ0GeYU" title="Linked List and Dynamic Memory Allocation | L-72" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
+
                 <div class="imgcon2">
-                    <div class="icon"><p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p> <img src="dots.svg" alt=""></div>
+                    <div class="icon">
+                        <p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p>
+                        <img src="dots.svg" alt="">
+                    </div>
                 </div>
-                <div class="imgcon3"><span class="text1">100 views</span> <span class="span-dot"></span><span class="text2">21 hours ago</span></div>
+                <div class="imgcon3"><span class="text1">40K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
             </div>
             <div class="childs child-4">
+                <a href="#videoModal4" >
                 <div class="imgcon">
 
-                    <img class="imgcon-img1" src="https://i.ytimg.com/vi/Wm176Gnp7jc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqKHJBD3GdDe9t4n2NNtif8zfzEg" alt="">
-                    <img class="imgcon-img2" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXVnM2Z0cXd2cmRqY3Jtb2c1MmtvMDBqbDRweWIwOTBueTZ1OTlnaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PqSbSRO7n97na/giphy.gif" alt="">  
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/Wm176Gnp7jc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqKHJBD3GdDe9t4n2NNtif8zfzEg"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
                     <div class="hover-box1"><img src="later.svg" alt=""></div>
                     <div class="hover-box2"><img src="play.svg" alt=""></div>
-                    <div class="hover-box3">10:00</div>
+                    <div class="hover-box3">8:00</div>
                 </div>
+            </a>
+
+                <div id="videoModal4" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/Wm176Gnp7jc" title="Secured SWE role at Target, India - Aditya sharing his Valuable Insights | Don&#39;t Skip" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
                 <div class="imgcon2">
-                    <div class="icon"><p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p> <img src="dots.svg" alt=""></div>
+                    <div class="icon">
+                        <p>Secured SWE role at Target, India - Aditya sharing his Valuable Insights | Don't Skip</p>
+                        <img src="dots.svg" alt="">
+                    </div>
                 </div>
-                <div class="imgcon3"><span class="text1">100 views</span> <span class="span-dot"></span><span class="text2">21 hours ago</span></div>
+                <div class="imgcon3"><span class="text1">7K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
             </div>
             <div class="childs child-5">
+                <a href="#videoModal5" >
                 <div class="imgcon">
 
-                    <img class="imgcon-img1" src="https://i.ytimg.com/vi/jRollPD2I7o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBg7KjHBLmlz7hVnslj5QGN8fsQ7g" alt="">
-                    <img class="imgcon-img2" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjZhbGdkeHc1eWsyOW1qbG52ZjE3dzB0eTBxaWhlaG84cm8xZzBjaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5WAdRevloGjuw/giphy.gif" alt="">  
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/jRollPD2I7o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBg7KjHBLmlz7hVnslj5QGN8fsQ7g"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
                     <div class="hover-box1"><img src="later.svg" alt=""></div>
                     <div class="hover-box2"><img src="play.svg" alt=""></div>
-                    <div class="hover-box3">10:00</div>
+                    <div class="hover-box3">32:00</div>
                 </div>
+            </a>
+
+
+
+                <div id="videoModal5" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/jRollPD2I7o" title="Inspiring Journey From Sales Job to Cracking SDE-1 in a Tech Startup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
+
                 <div class="imgcon2">
-                    <div class="icon"><p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p> <img src="dots.svg" alt=""></div>
+                    <div class="icon">
+                        <p>Inspiring Journey From Sales Job to Cracking SDE-1 in a Tech Startup by Programming Pathshala
+                            454 views 7 days ago 16 minutes</p> <img src="dots.svg" alt="">
+                    </div>
                 </div>
-                <div class="imgcon3"><span class="text1">100 views</span> <span class="span-dot"></span><span class="text2">21 hours ago</span></div>
+                <div class="imgcon3"><span class="text1">19K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
             </div>
             <div class="childs child-6">
+                <a href="#videoModal6" >
                 <div class="imgcon">
 
-                    <img class="imgcon-img1" src="https://i.ytimg.com/vi/l-PiIYzXL84/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB-HuuSWjZrMaLQrvbfigBnHQZvTg" alt="">
-                    <img class="imgcon-img2" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjZhbGdkeHc1eWsyOW1qbG52ZjE3dzB0eTBxaWhlaG84cm8xZzBjaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5WAdRevloGjuw/giphy.gif" alt="">  
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/l-PiIYzXL84/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB-HuuSWjZrMaLQrvbfigBnHQZvTg"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
                     <div class="hover-box1"><img src="later.svg" alt=""></div>
                     <div class="hover-box2"><img src="play.svg" alt=""></div>
-                    <div class="hover-box3">10:00</div>
+                    <div class="hover-box3">16:00</div>
                 </div>
+            </a>
+
+
+                <div id="videoModal6" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/l-PiIYzXL84" title="How DSA Helped her to Crack SDE-1 Job at Flipkart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+                
                 <div class="imgcon2">
-                    <div class="icon"><p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p> <img src="dots.svg" alt=""></div>
+                    <div class="icon">
+                        <p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p>
+                        <img src="dots.svg" alt="">
+                    </div>
                 </div>
-                <div class="imgcon3"><span class="text1">100 views</span> <span class="span-dot"></span><span class="text2">21 hours ago</span></div>
+                <div class="imgcon3"><span class="text1">15K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
             </div>
             <div class="childs child-7">
+                <a href="#videoModal7" >
 
-            
+
                 <div class="imgcon">
-                    <img class="imgcon-img1" src="https://i.ytimg.com/vi/6DZAwmCKdvE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDmHkTjAOodUxNoa0hrBueAOCp2aA" alt="">
-                    <img class="imgcon-img2" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjZhbGdkeHc1eWsyOW1qbG52ZjE3dzB0eTBxaWhlaG84cm8xZzBjaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5WAdRevloGjuw/giphy.gif" alt="">  
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/6DZAwmCKdvE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDmHkTjAOodUxNoa0hrBueAOCp2aA"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
                     <div class="hover-box1"><img src="later.svg" alt=""></div>
                     <div class="hover-box2"><img src="play.svg" alt=""></div>
-                    <div class="hover-box3">10:00</div>
+                    <div class="hover-box3">20:30</div>
                 </div>
+            </a>
+
+                <div id="videoModal7" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/6DZAwmCKdvE" title="Job Ready in 6 Months? | Launching Tech Fellowship Program | Apply now #techjobs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
+
                 <div class="imgcon2">
-                    <div class="icon"><p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p> <img src="dots.svg" alt=""></div>
+                    <div class="icon">
+                        <p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p>
+                        <img src="dots.svg" alt="">
+                    </div>
                 </div>
-                <div class="imgcon3"><span class="text1">100 views</span> <span class="span-dot"></span><span class="text2">21 hours ago</span></div>
+                <div class="imgcon3"><span class="text1">20K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
             </div>
             <div class="childs child-8">
+                <a href="#videoModal8" >
                 <div class="imgcon">
 
-                    <img class="imgcon-img1" src="https://i.ytimg.com/vi/tsiT3GRKFxE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAZ7ivX0Xfy7sk1XnyQu3qXFXDQaA" alt="">
-                    <img class="imgcon-img2" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDg3Nm05d3dzY2ltenNnaG9jNGh6b3U3aGZ0Mjk0ZDIzd2MyZXptZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gIkkXOHdR5QkgBsFGH/giphy.gif" alt="">  
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/tsiT3GRKFxE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAZ7ivX0Xfy7sk1XnyQu3qXFXDQaA"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
                     <div class="hover-box1"><img src="later.svg" alt=""></div>
                     <div class="hover-box2"><img src="play.svg" alt=""></div>
                     <div class="hover-box3">10:00</div>
                 </div>
-                <div class="imgcon2">
-                    <div class="icon"><p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p> <img src="dots.svg" alt=""></div>
-                </div>
-                <div class="imgcon3"><span class="text1">100 views</span> <span class="span-dot"></span><span class="text2">21 hours ago</span></div>
-            </div>
-           
-        </div>
-    </div>
+            </a>
 
+
+                <div id="videoModal8" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/tsiT3GRKFxE" title="Problem Solving | Think Out of Box" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
+                
+                <div class="imgcon2">
+                    <div class="icon">
+                        <p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p>
+                        <img src="dots.svg" alt="">
+                    </div>
+                </div>
+                <div class="imgcon3"><span class="text1">90K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
+            </div>
+
+            <div class="childs child-1">
+                
+                <a href="#videoModal" >
+                <div class="imgcon">
+            
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/Hu-EPelY7Yo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOap4tJz3FcJ3-jqEN0QXJ9h33BQ"
+                        alt="">
+                    
+
+                    
+                    <img class="imgcon-img2"
+                    src="giphy.jpeg"                        alt="">
+                   
+                    <div class="hover-box1"><img src="later.svg" alt=""></div>
+                    <div class="hover-box2"><img src="play.svg" alt=""></div>
+                    <div class="hover-box3">23:00</div>
+                </div>
+            </a>
+
+
+                <div id="videoModal" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/oU8m3Oqd1OU" title="Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Course | L-73" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
+                <div class="imgcon2">
+                    <div class="icon">
+                        <p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p>
+                        <img src="dots.svg" alt="">
+                    </div>
+                </div>
+                <div class="imgcon3"><span class="text1">18K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
+            </div>
+            <div class="childs child-2">
+
+                <a href="#videoModal2" >
+                <div class="imgcon">
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/X49See4Rdw8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1vJGVe2Ep847aRl6E0RDp95MgbQ"
+                        alt="">
+                    <img class="imgcon-img2"
+                    src="giphy.jpeg"                        alt="">
+                    <div class="hover-box1"><img src="later.svg" alt=""></div>
+                    <div class="hover-box2"><img src="play.svg" alt=""></div>
+                    <div class="hover-box3">15:00</div>
+                </div>
+            </a>
+
+
+                <div id="videoModal2" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="660" height="371" src="https://www.youtube.com/embed/nd1_Tw583G0" title="Concurrency in Practice, Code... |  Master Concurrency In-depth | Lec-5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+
+                <div class="imgcon2">
+                    <div class="icon">
+                        <p>Can you solve this Multithreading Challenge? | Master Concurrency In-depth | Lec-20 </p> <img
+                            src="dots.svg" alt="">
+                    </div>
+                </div>
+                <div class="imgcon3"><span class="text1">30K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
+            </div>
+            <div class="childs child-3">
+                <a href="#videoModal3" >
+                <div class="imgcon">
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/qCagfQ0GeYU/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6GFhSirjonZ8zsPcS66jrnlMldw"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
+                    <div class="hover-box1"><img src="later.svg" alt=""></div>
+                    <div class="hover-box2"><img src="play.svg" alt=""></div>
+                    <div class="hover-box3">18:00</div>
+                </div>
+            </a>
+
+                <div id="videoModal3" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/qCagfQ0GeYU" title="Linked List and Dynamic Memory Allocation | L-72" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
+
+                <div class="imgcon2">
+                    <div class="icon">
+                        <p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p>
+                        <img src="dots.svg" alt="">
+                    </div>
+                </div>
+                <div class="imgcon3"><span class="text1">40K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
+            </div>
+            <div class="childs child-4">
+                <a href="#videoModal4" >
+                <div class="imgcon">
+
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/Wm176Gnp7jc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqKHJBD3GdDe9t4n2NNtif8zfzEg"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
+                    <div class="hover-box1"><img src="later.svg" alt=""></div>
+                    <div class="hover-box2"><img src="play.svg" alt=""></div>
+                    <div class="hover-box3">8:00</div>
+                </div>
+            </a>
+
+                <div id="videoModal4" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/Wm176Gnp7jc" title="Secured SWE role at Target, India - Aditya sharing his Valuable Insights | Don&#39;t Skip" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
+                <div class="imgcon2">
+                    <div class="icon">
+                        <p>Secured SWE role at Target, India - Aditya sharing his Valuable Insights | Don't Skip</p>
+                        <img src="dots.svg" alt="">
+                    </div>
+                </div>
+                <div class="imgcon3"><span class="text1">7K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
+            </div>
+            <div class="childs child-5">
+                <a href="#videoModal5" >
+                <div class="imgcon">
+
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/jRollPD2I7o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBg7KjHBLmlz7hVnslj5QGN8fsQ7g"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
+                    <div class="hover-box1"><img src="later.svg" alt=""></div>
+                    <div class="hover-box2"><img src="play.svg" alt=""></div>
+                    <div class="hover-box3">32:00</div>
+                </div>
+            </a>
+
+
+
+                <div id="videoModal5" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/jRollPD2I7o" title="Inspiring Journey From Sales Job to Cracking SDE-1 in a Tech Startup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
+
+                <div class="imgcon2">
+                    <div class="icon">
+                        <p>Inspiring Journey From Sales Job to Cracking SDE-1 in a Tech Startup by Programming Pathshala
+                            454 views 7 days ago 16 minutes</p> <img src="dots.svg" alt="">
+                    </div>
+                </div>
+                <div class="imgcon3"><span class="text1">19K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
+            </div>
+            <div class="childs child-6">
+                <a href="#videoModal6" >
+                <div class="imgcon">
+
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/l-PiIYzXL84/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB-HuuSWjZrMaLQrvbfigBnHQZvTg"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
+                    <div class="hover-box1"><img src="later.svg" alt=""></div>
+                    <div class="hover-box2"><img src="play.svg" alt=""></div>
+                    <div class="hover-box3">16:00</div>
+                </div>
+            </a>
+
+
+                <div id="videoModal6" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/l-PiIYzXL84" title="How DSA Helped her to Crack SDE-1 Job at Flipkart" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+                
+                <div class="imgcon2">
+                    <div class="icon">
+                        <p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p>
+                        <img src="dots.svg" alt="">
+                    </div>
+                </div>
+                <div class="imgcon3"><span class="text1">15K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
+            </div>
+            <div class="childs child-7">
+                <a href="#videoModal7" >
+
+
+                <div class="imgcon">
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/6DZAwmCKdvE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLDmHkTjAOodUxNoa0hrBueAOCp2aA"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
+                    <div class="hover-box1"><img src="later.svg" alt=""></div>
+                    <div class="hover-box2"><img src="play.svg" alt=""></div>
+                    <div class="hover-box3">20:30</div>
+                </div>
+            </a>
+
+                <div id="videoModal7" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/6DZAwmCKdvE" title="Job Ready in 6 Months? | Launching Tech Fellowship Program | Apply now #techjobs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
+
+                <div class="imgcon2">
+                    <div class="icon">
+                        <p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p>
+                        <img src="dots.svg" alt="">
+                    </div>
+                </div>
+                <div class="imgcon3"><span class="text1">20K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
+            </div>
+            <div class="childs child-8">
+                <a href="#videoModal8" >
+                <div class="imgcon">
+
+                    <img class="imgcon-img1"
+                        src="https://i.ytimg.com/vi/tsiT3GRKFxE/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAZ7ivX0Xfy7sk1XnyQu3qXFXDQaA"
+                        alt="">
+                        <img class="imgcon-img2"
+                        src="giphy.jpeg"                        alt="">
+                    <div class="hover-box1"><img src="later.svg" alt=""></div>
+                    <div class="hover-box2"><img src="play.svg" alt=""></div>
+                    <div class="hover-box3">10:00</div>
+                </div>
+            </a>
+
+
+                <div id="videoModal8" class="modal">
+                    <div class="modal-content">
+                        <a href="#" class="close-btn">&times;</a>
+                        <iframe width="656" height="369" src="https://www.youtube.com/embed/tsiT3GRKFxE" title="Problem Solving | Think Out of Box" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    </div>
+                </div>
+
+
+                
+                <div class="imgcon2">
+                    <div class="icon">
+                        <p>Linked List Data Structure | Insertion and Deletion in LL | Complete DSA Couse | L-73/</p>
+                        <img src="dots.svg" alt="">
+                    </div>
+                </div>
+                <div class="imgcon3"><span class="text1">90K views</span> <span class="span-dot"></span><span
+                        class="text2">21 hours ago</span></div>
+            </div>
+
+
+<div class="chat-container">
+    <input type="checkbox" id="chatToggle" class="chat-checkbox">
+    <label for="chatToggle" class="chat-icon">
+        <img src="chan.svg" alt="Chat Icon">
+    </label>
+
+
+    <div class="chat-box">
+        <p>How can I help you today?</p>
+        <input type="text" placeholder="Type a message...">
+        <button>Send</button>
+    </div>
+</div>
 
 </body>
 
